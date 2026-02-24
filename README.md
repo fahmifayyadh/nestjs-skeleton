@@ -85,6 +85,46 @@ Server akan berjalan di `http://localhost:3000`
 
 API Documentation: `http://localhost:3000/api/docs`
 
+## 🧪 Testing
+
+Project ini dilengkapi dengan **comprehensive testing framework** dengan Unit, Integration, dan E2E tests.
+
+### Run Tests
+
+```bash
+npm test                    # Run all tests
+npm run test:watch          # Watch mode
+npm run test:cov            # Coverage report
+npm run test:unit           # Unit tests only
+npm run test:integration    # Integration tests only
+npm run test:e2e            # E2E tests only
+npm run test:ci             # CI environment
+```
+
+### Test Coverage
+
+Generate dan view coverage report:
+
+```bash
+npm run test:cov
+open coverage/index.html
+```
+
+### Test Framework
+
+- **Jest** - Testing framework
+- **Supertest** - HTTP testing
+- **@nestjs/testing** - NestJS testing utilities
+- **@faker-js/faker** - Mock data generation
+
+**📚 Baca [TESTING-AUTOMATION.md](./TESTING-AUTOMATION.md) untuk dokumentasi lengkap**
+
+**Statistik Testing:**
+- ✅ 235+ test cases
+- ✅ 35+ test suites
+- ✅ Unit, Integration, E2E coverage
+- ✅ 70%+ coverage target
+
 ## 📁 Struktur Folder
 
 ```
